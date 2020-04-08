@@ -1,0 +1,52 @@
+/* common classes start */
+
+.wd-200 {
+  width: 200px;
+}
+
+.wd-100 {
+  width: 100px;
+}
+
+/* common classes end */
+
+/* .App {
+  text-align: center;
+} */
+
+.App-header {
+  background-color: rgb(146, 143, 143);
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.selector {
+  height: 25px;
+}
+
+.timer {
+  text-align: center;
+}
+
+.child-flex {
+  margin: auto;
+  display: inline-block;
+}
+
+.time-span {
+  padding-left: 5px;
+}
+
+.meridiem-span {
+  width: 50px;
+}
