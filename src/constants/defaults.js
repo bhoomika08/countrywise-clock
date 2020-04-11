@@ -1,7 +1,8 @@
-const DEFAULT_TEXT = {
+const APP_DEFAULTS = {
   country: "india",
-  timeZoneFormat: "hh:mm:ss A",
+  timeFormat: "hh:mm:ss",
+  meridiemFormat: "A",
   soundMessage: "10 minutes passed", 
 }
 
-export default DEFAULT_TEXT;
+export default APP_DEFAULTS;

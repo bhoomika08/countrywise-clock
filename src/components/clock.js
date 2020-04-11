@@ -2,13 +2,13 @@ import React from 'react';
 import DropdownSingle from '../shared-components/dropdown-single';
 import Timer from './timer';
 import COUNTRIES from '../constants/countries';
-import DEFAULT_TEXT from '../constants/defaults';
+import APP_DEFAULTS from '../constants/defaults';
 
 class Clock extends React.Component {
   constructor() {
     super();
     this.state = {
-      country: DEFAULT_TEXT.country,
+      country: APP_DEFAULTS.country,
     }
   }
 

@@ -43,10 +43,10 @@
   display: inline-block;
 }
 
-.time-span {
+.time {
   padding-left: 5px;
 }
 
-.meridiem-span {
+.meridiem {
   width: 50px;
 }
